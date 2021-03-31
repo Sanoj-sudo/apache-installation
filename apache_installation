@@ -1,0 +1,8 @@
+#!/bin/bash
+yum update -y 
+yum install -y httpd httpd-tools mod_ssl 
+systemctl enable httpd 
+systemctl start httpd
+cd /var/www/html
+
+Paste there HTML file or webapges.
